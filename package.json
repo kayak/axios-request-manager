@@ -1,0 +1,38 @@
+{
+  "name": "axios-request-manager",
+  "version": "1.0.0",
+  "description": "Manage Axios request tokens",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js test/manager.spec.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "axios",
+    "request manager"
+  ],
+  "author": "Vladimir Spasic <vspasic@kayak.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayak/axios-request-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kayak/axios-request-manager/issues"
+  },
+  "homepage": "https://github.com/kayak/axios-request-manager",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "axios": "^0.15.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "axios": "^0.18.0",
+    "eslint": "^5.7.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.16.4"
+  }
+}
