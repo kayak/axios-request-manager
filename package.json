@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint index.js test/manager.spec.js",
     "test": "ava",
-    "coverage": "nyc ava",
+    "coverage": "nyc --reporter=html --reporter=text ava",
     "coveralls": "npm run coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
