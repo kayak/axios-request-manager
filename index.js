@@ -17,7 +17,7 @@ const { CancelToken } = require('axios');
  */
 class RequestManager {
   constructor () {
-    this.axiosTokens = new WeakMap();
+    this.axiosTokens = new Map();
   }
 
   /**

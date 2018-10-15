@@ -1,6 +1,12 @@
 Axios Request manager
 =========================================================
 
+[![Build Status](https://travis-ci.org/kayak/axios-request-manager.png?branch=master)](https://travis-ci.org/kayak/axios-request-manager)
+[![Coverage Status](https://coveralls.io/repos/github/kayak/axios-request-manager/badge.svg?branch=master)](https://coveralls.io/github/kayak/axios-request-manager?branch=master)
+[![David](https://img.shields.io/david/kayak/axios-request-manager.svg)](https://david-dm.org/kayak/axios-request-manager)
+[![David](https://img.shields.io/david/dev/kayak/axios-request-manager.svg)](https://david-dm.org/kayak/axios-request-manager)
+
+
 Manager that creates and stores Axios Cancel tokens. For more information on Axios Cancel tokens, please read the following [Axios documentation](https://github.com/axios/axios#cancellation)
 
 ## Installing
