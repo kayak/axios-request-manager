@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js test/manager.spec.js",
-    "test": "nyc ava"
+    "test": "ava",
+    "coverage": "nyc ava",
+    "coveralls": "npm run coverage && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "axios",
@@ -27,6 +29,7 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "axios": "^0.18.0",
+    "coveralls": "^3.0.2",
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
