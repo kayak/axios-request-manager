@@ -6,8 +6,9 @@
   "scripts": {
     "lint": "eslint index.js test/manager.spec.js",
     "test": "ava",
-    "coverage": "nyc --reporter=html --reporter=text ava",
-    "coveralls": "npm run coverage && nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc --reporter=lcov --reporter=text ava",
+    "coveralls": "nyc ava && nyc report --reporter=text-lcov",
+    "release": "np"
   },
   "keywords": [
     "axios",
@@ -37,6 +38,10 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "express": "^4.16.4",
+    "np": "^3.0.4",
     "nyc": "^13.1.0"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
